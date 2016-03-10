@@ -1,0 +1,39 @@
+{
+  "packages": [
+    {
+      "name": "Optiboot",
+      "maintainer": "westfw",
+      "websiteURL": "https://github.com/Optiboot/optiboot",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "Optiboot 6.2",
+          "architecture": "avr",
+          "version": "6.2",
+          "category": "Contributed",
+          "help": {
+	    "online": "https://github.com/Optiboot/optiboot/wiki"
+          },
+          "url": "https://github.com/prezeskk/optiboot/raw/master/releases/download/v6.2/optiboot.zip",
+          "archiveFileName": "optiboot.zip",
+          "checksum": "SHA-256:8a8bb3a465ea0c4215a72ddad505f0b4edbe96ca95c1a2b82acaa01dd4a6f9ee",
+          "size": "11538",
+          "boards": [
+            {"name": "Optiboot"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
