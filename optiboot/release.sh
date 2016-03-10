@@ -63,11 +63,11 @@ cp *.hex $TOP/bootloaders/optiboot
 #
 # zip everything up.
 pushd /tmp/optiboot-release
-zip -r Optiboot.zip Optiboot
-HASH=`openssl dgst -sha256 Optiboot.zip | sed -e 's/.* //'`
-SIZE=`stat -f %z Optiboot.zip`
+zip -r optiboot.zip Optiboot
+HASH=$(openssl dgst -sha256 optiboot.zip | sed -e 's/.* //')
+SIZE=$(stat --printf=%s optiboot.zip)
 popd
-sed -e "s/#.*//" -e "s/%HASH%/$HASH/" -e "s/%VERSION%/$1/" -e "s/%SIZE%/$SIZE/" ../../package_optiboot_optiboot-additional_index.json.TEMPLATE > /tmp/optiboot-release/package_optiboot_optiboot-additional_index.json
+sed -e "/^#/d" -e "s/%HASH%/$HASH/" -e "s/%VERSION%/$1/" -e "s/%SIZE%/$SIZE/" ../../package_optiboot_optiboot-additional_index.json.TEMPLATE > /tmp/optiboot-release/package_optiboot_index.json
 
 #
 # This leaves the .zip and the .json file in /tmp/optiboot-release
