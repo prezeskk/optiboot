@@ -22,7 +22,7 @@
         {
           "name": "Optiboot %VERSION%",
           "architecture": "avr",
-          "version": "0.%VERSION%",
+          "version": "%VERSION%",
 #
 # 3r party packages must use "Contributed"
 #
@@ -30,7 +30,7 @@
           "help": {
 	    "online": "https://github.com/Optiboot/optiboot/wiki"
           },
-          "url": "https://github.com/Optiboot/optiboot/releases/download/v%VERSION%/optiboot.zip",
+          "url": "https://github.com/prezeskk/optiboot/raw/master/releases/download/v%VERSION%/optiboot.zip",
           "archiveFileName": "optiboot.zip",
 #
 # Package file verification data
@@ -39,7 +39,7 @@
           "size": "%SIZE%",
 #
           "boards": [
-            {"name": "New Optiboot"}
+            {"name": "Optiboot"}
           ],
           "toolsDependencies": [
             {
