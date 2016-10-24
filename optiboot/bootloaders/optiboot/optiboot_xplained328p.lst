@@ -37,7 +37,7 @@ Disassembly of section .text:
     7e22:	80 93 c1 00 	sts	0x00C1, r24
     7e26:	86 e0       	ldi	r24, 0x06	; 6
     7e28:	80 93 c2 00 	sts	0x00C2, r24
-    7e2c:	80 e1       	ldi	r24, 0x10	; 16
+    7e2c:	82 e2       	ldi	r24, 0x22	; 34
     7e2e:	80 93 c4 00 	sts	0x00C4, r24
     7e32:	8e e0       	ldi	r24, 0x0E	; 14
     7e34:	b1 d0       	rcall	.+354    	; 0x7f98 <watchdogConfig>

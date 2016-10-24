@@ -12,15 +12,15 @@
         {
           "name": "Optiboot 6.2",
           "architecture": "avr",
-          "version": "6.2",
+          "version": "6.2a",
           "category": "Contributed",
           "help": {
 	    "online": "https://github.com/Optiboot/optiboot/wiki"
           },
           "url": "https://github.com/prezeskk/optiboot/raw/master/releases/download/v6.2/optiboot.zip",
           "archiveFileName": "optiboot.zip",
-          "checksum": "SHA-256:8a8bb3a465ea0c4215a72ddad505f0b4edbe96ca95c1a2b82acaa01dd4a6f9ee",
-          "size": "11538",
+          "checksum": "SHA-256:3e74924a8780dc35690a9508ec8c9da99a8065aa30319a41890007923da16bd4",
+          "size": "22713",
           "boards": [
             {"name": "Optiboot"}
           ],
