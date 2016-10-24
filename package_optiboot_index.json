@@ -12,7 +12,7 @@
         {
           "name": "Optiboot 6.2",
           "architecture": "avr",
-          "version": "6.2a",
+          "version": "6.2.1",
           "category": "Contributed",
           "help": {
 	    "online": "https://github.com/Optiboot/optiboot/wiki"
